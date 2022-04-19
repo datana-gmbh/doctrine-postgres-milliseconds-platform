@@ -1,7 +1,7 @@
 {
-    "name": "datana-gmbh/datapool-api",
+    "name": "datana-gmbh/doctrine-postgres-milliseconds-platform",
     "type": "library",
-    "description": "API for Datapool",
+    "description": "A Doctrine DBAL platform for PostgreSQL with millisecond support",
     "license": "MIT",
     "authors": [
         {
@@ -11,11 +11,7 @@
     ],
     "require": {
         "php": ">=7.4",
-        "oskarstark/trimmed-non-empty-string": "^0.1.0 || ^0.2.0 || ^1.0",
-        "psr/log": "^1.1 || ^2.0 || ^3.0",
-        "symfony/http-client": "^4.4 || ^5.1 || ^6.0",
-        "thecodingmachine/safe": "^1.0",
-        "webmozart/assert": "^1.7"
+        "doctrine/dbal": "^2.0"
     },
     "require-dev": {
         "ergebnis/composer-normalize": "^2.2",
@@ -24,20 +20,19 @@
         "phpstan/extension-installer": "^1.0",
         "phpstan/phpstan": "^0.12.14",
         "phpstan/phpstan-webmozart-assert": "^0.12.2",
-        "phpunit/phpunit": "^9.0",
-        "thecodingmachine/phpstan-safe-rule": "^1.0 || ^2.0"
+        "phpunit/phpunit": "^9.0"
     },
     "config": {
         "sort-packages": true
     },
     "autoload": {
         "psr-4": {
-            "Datana\\Datapool\\Api\\": "src/"
+            "Datana\\Doctrine\\PostgreSQL\\Platform\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Datana\\Datapool\\Api\\Tests\\": "tests/"
+            "Datana\\Doctrine\\PostgreSQL\\Platform\\Tests\\": "tests/"
         }
     },
     "minimum-stability": "stable",
