@@ -21,7 +21,7 @@ doctrine:
         # We want to store DateTime objects with milliseconds
         # The solution is built on https://github.com/doctrine/dbal/issues/2873#issuecomment-701052412
         # but instead of using microseconds we use milliseconds
-        platform_service: App\Bridge\Doctrine\DBAL\Platforms\PostgreSQLMillisecondsPlatform
+        platform_service: Datana\Doctrine\PostgreSQL\Platform\Doctrine\DBAL\Platforms\PostgreSQLMillisecondsPlatform
 ```
 
 [build-status-master-php]: https://github.com/datana-gmbh/doctrine-postgres-milliseconds-platform/workflows/PHP/badge.svg?branch=master
