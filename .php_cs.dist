@@ -1,7 +1,7 @@
 <?php
 
 $header = <<<'HEADER'
-This file is part of datana-gmbh/doctrine-postgresql-milliseconds-platform
+This file is part of datana-gmbh/doctrine-postgresql-milliseconds-platform package.
 
 (c) Datana GmbH <info@datana.rocks>
 
