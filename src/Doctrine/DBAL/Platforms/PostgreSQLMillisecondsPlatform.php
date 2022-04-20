@@ -11,7 +11,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Datana\Doctrine\PostgreSQL\Platform\Doctrine\DBAL\Platforms;
+namespace Datana\Doctrine\Postgres\Platform\Doctrine\DBAL\Platforms;
 
 use Doctrine\DBAL\Platforms\PostgreSQL100Platform;
 

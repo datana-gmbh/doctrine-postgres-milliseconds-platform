@@ -1,7 +1,7 @@
 {
     "name": "datana-gmbh/doctrine-postgres-milliseconds-platform",
     "type": "library",
-    "description": "A Doctrine DBAL platform for PostgreSQL with millisecond support",
+    "description": "A Doctrine DBAL platform for Postgres with millisecond support",
     "license": "MIT",
     "authors": [
         {
@@ -27,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Datana\\Doctrine\\PostgreSQL\\Platform\\": "src/"
+            "Datana\\Doctrine\\Postgres\\Platform\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Datana\\Doctrine\\PostgreSQL\\Platform\\Tests\\": "tests/"
+            "Datana\\Doctrine\\Postgres\\Platform\\Tests\\": "tests/"
         }
     },
     "minimum-stability": "stable",
