@@ -11,9 +11,9 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Datana\Doctrine\PostgreSQL\Platform\Tests\Unit\Doctrine\DBAL\Platforms;
+namespace Datana\Doctrine\Postgres\Platform\Tests\Unit\Doctrine\DBAL\Platforms;
 
-use Datana\Doctrine\PostgreSQL\Platform\Doctrine\DBAL\Platforms\PostgreSQLMillisecondsPlatform;
+use Datana\Doctrine\Postgres\Platform\Doctrine\DBAL\Platforms\PostgreSQLMillisecondsPlatform;
 use PHPUnit\Framework\TestCase;
 
 final class PostgreSQLMillisecondsPlatformTest extends TestCase
