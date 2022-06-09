@@ -13,9 +13,9 @@ declare(strict_types=1);
 
 namespace Datana\Doctrine\Postgres\Platform\Doctrine\DBAL\Platforms;
 
-use Doctrine\DBAL\Platforms\PostgreSQL100Platform;
+use Doctrine\DBAL\Platforms\PostgreSQLPlatform;
 
-final class PostgreSQLMillisecondsPlatform extends PostgreSQL100Platform
+final class PostgreSQLMillisecondsPlatform extends PostgreSQLPlatform
 {
     public function getDateTimeFormatString(): string
     {
